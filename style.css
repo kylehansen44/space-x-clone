@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://i.insider.com/5f273f255fa9a471e61dec74?width=1100&format=jpeg&auto=webp);
+    background-color: #cccccc;
+    opacity: 1;
+}
+
+
+.h1 {
+    display: flex;
+    position: sticky;
+    z-index: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navchild {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mission {
+    position: relative;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    top: 350px;
+
+}
+
+.crew {
+    position: relative;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    color: #ffffff;
+    flex-wrap: wrap;
+    max-width: 25vw;
+    height: auto;
+    top: 350px
+}
+
+.replay {
+    position: relative;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background-color:transparent;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    top: 350px
+}
+.replay:hover {
+    background:rgba(255, 255, 255, 0.603);
+}
