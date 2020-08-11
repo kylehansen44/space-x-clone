@@ -8,18 +8,25 @@ body {
     opacity: 1;
 }
 
+.header {
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+}
 
 .h1 {
     display: flex;
     position: sticky;
     z-index: 2;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
     align-items: center;
     justify-content: flex-start;
+    width: 300px;
 }
-
-.navchild {
+img {
+    position: sticky;
+}
+.navchild > a {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -34,7 +41,17 @@ body {
     align-items: center;
     flex-direction: row;
 }
+.navbar > div {
+    margin-left: 30px;
+}
 
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 .mission {
     position: relative;
     z-index: 2;
@@ -68,7 +85,7 @@ body {
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-    top: 350px
+    top: 350px;
 }
 .replay:hover {
     background:rgba(255, 255, 255, 0.603);
